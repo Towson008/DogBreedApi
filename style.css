@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem;
+}
+
+img {
+  height: 334px;
+  width: 334px;
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  animation: spin 3s linear alternate;
+}
+/* .dog-breed {
+  height: 334px;
+  width: 334px;
+  border: 2px solid red;
+  border-radius: 50%;
+  animation: spin 3s linear alternate;
+} */
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
