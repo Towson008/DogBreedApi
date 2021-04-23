@@ -46,3 +46,24 @@ img {
     transform: rotateZ(360deg);
   }
 }
+
+@keyframes loading {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.loader {
+  font-size: 50px;
+  text-align: center;
+  animation: 2s loading linear infinite;
+  display: none;
+}
+
+.dog-breed {
+  display: none;
+}
+
+.show {
+  display: block;
+}
